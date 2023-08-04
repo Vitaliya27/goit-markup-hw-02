@@ -1,7 +1,11 @@
+:root {
+    --brand-color: #3f51b5;
+  }
+
 body {
     background: #ffffff;
-    color: #212121;
-    font-family: "Roboto" sans-serif;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -16,6 +20,9 @@ li {
     list-style-type: none;
 }
 
+span {
+    color: var(--navyblue, #2e2f42)
+}
 /* Header section */
 
 .header {
@@ -36,22 +43,18 @@ li {
 }
 
 .logo {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue, #4d5ae5);
     display: inline-flex;
     height: 24px;
     align-items: center;
     flex-shrink: 0;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-}
-
-.web {
-    color: #4D5AE5;
 }
 
 .list {
@@ -134,7 +137,7 @@ li {
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white, #FFF);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -153,6 +156,16 @@ li {
     gap: 10px;
     border-radius: 4px;
     background: var(--ocean, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button:focus {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -216,27 +229,25 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     margin: 100px auto 72px;
+    
 }
 
-.portfolio-list {
+.list {
     display: inline-flex;
     padding: 0;
     margin: 0;
     margin-left: 168px;
+    background: var(--cloud, #F4F4FD);
+    height: 732px;
+    flex-shrink: 0;
 }
 
 .portfolio-images {
     margin: 0 24px 120px 0;
     display: flex;
-}
-
-.team-section {
-    background: var(--cloud, #F4F4FD);
-    height: 732px;
-    flex-shrink: 0;
 }
 
 .team-item {
@@ -304,19 +315,20 @@ li {
     height: 312px;
     flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
+    font-family: 'Raleway', sans-serif;
 }
 
-.logo-footer {
-    color: var(--navyblue, #ffffff);
+.link {
+    color: var(--navyblue, #4d5ae5);
     display: inline-flex;
     height: 24px;
     align-items: center;
     flex-shrink: 0;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-top: 100px;

@@ -1,5 +1,4 @@
 body {
-    font-family: Roboto;
     background: #ffffff;
     color: #212121;
 }
@@ -112,4 +111,144 @@ li {
     letter-spacing: 0.64px;
     box-sizing: border-box;
     margin: 0 0 0 635px;
+}
+
+.feutures {
+    display: inline-flex;
+    margin-left: 78px;
+    margin-right: 78px;
+    flex-shrink: 0;
+}
+
+.feutures-title {
+    color: #ffffff;
+}
+
+.feutures-list {
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.feutures-item {
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+.feutures-text {
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+    margin: 0 0 0 12px;
+}
+
+.portfolio-item {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin: 100px 558px 72px 559px;
+}
+
+.portfolio-list {
+    display: inline-flex;
+    margin-left: 78px;
+}
+
+.portfolio-images {
+    margin: 0 24px 120px 24px;
+    display: flex;
+}
+
+.team-section {
+    background: var(--cloud, #F4F4FD);
+    height: 732px;
+    flex-shrink: 0;
+}
+
+.team-item {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    padding-top: 120px;
+}
+
+.team-list {  
+    display: inline-flex;
+    margin-left: 116px;
+    padding-right: 24px;
+    margin-top: 36px;
+}
+
+.team-cards {
+    width: 264px;
+    height: 380px;
+    display: list-item;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px 120px 12px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.photo {
+    width: 264px;
+    height: 260px;
+}
+
+.team-name {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
+
+.position {
+    color: var(--slate, #434455);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    block-size: border-box;
 }

@@ -141,7 +141,8 @@ li {
     line-height: 1.5;
     letter-spacing: 0.64px;
     box-sizing: border-box;
-    margin: 0 0 0 635px;
+    margin-left: 635px;
+    margin-right: 635px;
     cursor: pointer;
 }
 
@@ -157,6 +158,10 @@ li {
 
 /* Main section */
 
+.feutures-container {
+    margin-left: auto;
+    margin-right: auto;
+}
 .feutures {
     display: inline-flex;
     margin-left: 78px;
@@ -220,7 +225,7 @@ li {
     display: inline-flex;
     padding: 0;
     margin: 0;
-    margin-left: 156px;
+    margin-left: 168px;
 }
 
 .portfolio-images {

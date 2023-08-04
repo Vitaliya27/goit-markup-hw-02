@@ -21,7 +21,8 @@ li {
 }
 
 span {
-    color: var(--navyblue, #2e2f42)
+    color: var(--navyblue, #f4f4fd)
+    
 }
 /* Header section */
 
@@ -350,7 +351,8 @@ span {
 
 /* Portfolio Page */
 
-.buttons {
+.button-list {
+    list-style: none;
     text-align: center;
     display: inline-flex;
     justify-content: center;
@@ -360,20 +362,19 @@ span {
     padding-left: 450px;
 }
 
-.buttons-list {
+.buttons {
     padding-right: 24px;
 }
 
 .buttons-item {
     height: 48px;
     color: var(--iris, #4D5AE5);
-    text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 
     display: inline-block;
     padding: 0px 24px;
@@ -390,14 +391,39 @@ span {
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background-color: #404BBF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+}
+
+.buttons-item:focus {
+    display: inline;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #ffffff;   
 }
 
 /* Portfolio section */
 
-.row {
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-color, #2e2f42)
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color, #434455)
+}
+
+.row-main-list {
     display: inline-flex;
     align-items: flex-start;
     margin-top: 0;
@@ -406,7 +432,7 @@ span {
     padding-left: 0;
 }
 
-.row-last {
+.row-list-item {
     display: inline-flex;
     align-items: flex-start;
     margin-top: 0;

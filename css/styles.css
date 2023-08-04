@@ -203,9 +203,9 @@ li {
 
 .team-list {  
     display: inline-flex;
-    margin-left: 116px;
-    padding-right: 24px;
+    margin-left: 156px;
     margin-top: 36px;
+    padding-left: 0;
 }
 
 .team-cards {
@@ -215,7 +215,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 12px 120px 12px;
+    margin: 0 12px 0 12px;
     border-radius: 0px 0px 4px 4px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -249,6 +249,41 @@ li {
     line-height: 24px;
     letter-spacing: 0.32px;
     margin-top: 0;
-    margin-bottom: 32px;
     block-size: border-box;
+}
+
+.footer {
+    height: 312px;
+    flex-shrink: 0;
+    background: var(--navyblue, #2E2F42);
+}
+
+.logo-footer {
+    color: var(--navyblue, #ffffff);
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-left: 156px;
+}
+
+.text-footer {
+    color: var(--cloud, #F4F4FD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    width: 264px;
+    margin-top: 16px;
+    margin-left: 156px;
 }

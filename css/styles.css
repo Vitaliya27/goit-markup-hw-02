@@ -11,6 +11,8 @@ li {
     list-style-type: none;
 }
 
+/* Header section */
+
 .header {
     height: 72px;
     flex-shrink: 0;
@@ -61,6 +63,16 @@ li {
     margin-left: 40px;
 }
 
+.list-item a:active {
+    color: var(--ocean, #404BBF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
 .list-address a {
     color: #434455;
     font-family: Roboto;
@@ -72,6 +84,18 @@ li {
     display: inline-flex;
     margin: 24px 20px 24px 20px;
 }
+
+.list-address a:active {
+    color: var(--ocean, #404BBF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/* Hero section */
 
 .hero {
     height: 600px;
@@ -111,7 +135,20 @@ li {
     letter-spacing: 0.64px;
     box-sizing: border-box;
     margin: 0 0 0 635px;
+    cursor: pointer;
 }
+
+.button:hover {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Main section */
 
 .feutures {
     display: inline-flex;
@@ -251,6 +288,8 @@ li {
     margin-top: 0;
     block-size: border-box;
 }
+
+/* Footer */
 
 .footer {
     height: 312px;

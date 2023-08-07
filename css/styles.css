@@ -89,15 +89,13 @@ address {
 }
 
 .address-item {
-    color: #434455;
+    color: var(--navyblue, #434455)
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
-    display: inline-flex;
-    margin: 24px 20px 24px 20px;
+    letter-spacing: 0.02em;
     
 }
 
@@ -197,25 +195,12 @@ address {
 }
 
 .feutures-title {
-    color: var(--navyblue, #2e2f42)
+    color: var(--navyblue, #2e2f42);
     font-weight: 500;
     font-style: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     display: none;
-}
-
-.feutures-list {
-    color: var(--navyblue, #2E2F42);
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    margin-right: 12px;
-    margin-left: 12px;
-    margin-top: 72px;
 }
 
 .feutures-item {
@@ -225,19 +210,14 @@ address {
     font-style: normal;
     font-weight: 500;
     line-height: 1.2px; 
-    letter-spacing: 0.4px;
-    margin-left: 12px;
+    letter-spacing: 0.02em;
 }
 
 .feutures-text {
     color: var(--slate, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
-    margin: 0 0 0 12px;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-item {

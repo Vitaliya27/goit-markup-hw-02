@@ -74,27 +74,27 @@ address {
     list-style: none;
 }
 
-.list-item a {
-    color: var(--navyblue, #2E2F42);
+.list-item {
+    color: var(--navyblue, #2e2f42);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     display: inline-flex;
     margin-left: 40px;
 }
 
-.list-item a:hover {
+.list-item:hover {
     color: #404bbf;
 }
 
-.list-item a:focus {
+.list-item:focus {
     color: #404bbf;
 }
 
-.list-item a:active {
+.list-item:active {
     color: var(--ocean, #404BBF);
     font-family: Roboto;
     font-size: 16px;
@@ -114,6 +114,7 @@ address {
     letter-spacing: 0.32px;
     display: inline-flex;
     margin: 24px 20px 24px 20px;
+    
 }
 
 .address-item:hover {

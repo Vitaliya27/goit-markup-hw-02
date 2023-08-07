@@ -52,14 +52,13 @@ address {
 }
 
 .logo {
-    color: var(--navyblue, #4d5ae5);
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-style: normal;
     font-weight: 800;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--navyblue, #4d5ae5);
 }
 
 .header-span {
@@ -200,7 +199,6 @@ address {
     font-style: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    display: none;
 }
 
 .feutures-item {
@@ -220,7 +218,7 @@ address {
     letter-spacing: 0.02em;
 }
 
-.portfolio-item {
+.portfolio-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: Roboto;
@@ -229,19 +227,7 @@ address {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    margin: 100px auto 72px;
     
-}
-
-.list {
-    display: inline-flex;
-    padding: 0;
-    margin: 0;
-    margin-left: 168px;
-    background: var(--cloud, #F4F4FD);
-    height: 732px;
-    flex-shrink: 0;
 }
 
 .portfolio-images {
@@ -260,13 +246,6 @@ address {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     padding-top: 120px;
-}
-
-.team-list {  
-    display: inline-flex;
-    margin-left: 156px;
-    margin-top: 36px;
-    padding-left: 0;
 }
 
 .team-cards {
@@ -328,6 +307,10 @@ address {
     width: 264px;
     margin-top: 16px;
     margin-left: 156px;
+}
+
+.footer-span {
+    color: #f4f4fd;
 }
 
 /* Portfolio Page */

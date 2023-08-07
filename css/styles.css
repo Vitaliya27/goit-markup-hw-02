@@ -54,6 +54,7 @@ address {
 
 .list {
     list-style: none;
+    background-color: #FFFFFF
 }
 
 .list-item {
@@ -203,6 +204,7 @@ address {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .team-name {

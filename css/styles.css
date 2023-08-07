@@ -41,12 +41,6 @@ address {
 
 }
 
-.header-list {
-    display: flex;
-    padding-left: 36px;
-    align-items: center;
-}
-
 .link {
     text-decoration: none;
 }
@@ -71,7 +65,6 @@ address {
 
 .list-item {
     color: var(--navyblue, #2e2f42);
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -88,14 +81,12 @@ address {
 }
 
 .address-item {
-    color: var(--navyblue, #434455)
-    font-family: Roboto;
+    color: var(--navyblue, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
 }
 
 .address-item:hover {
@@ -113,7 +104,29 @@ address {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer {
+    height: 312px;
+    flex-shrink: 0;
+    background: var(--navyblue, #2E2F42);
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-footer {
+    color: var(--navyblue, #F4F4FD);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+.footer-span {
+    color: #f4f4fd;
 }
 
 /* Hero section */
@@ -188,7 +201,7 @@ address {
     color: var(--navyblue, #2e2f42);
     font-weight: 500;
     font-style: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -198,7 +211,7 @@ address {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.2px; 
+    line-height: 1.2; 
     letter-spacing: 0.02em;
 }
 
@@ -284,32 +297,6 @@ address {
     block-size: border-box;
 }
 
-/* Footer */
-
-.footer {
-    height: 312px;
-    flex-shrink: 0;
-    background: var(--navyblue, #2E2F42);
-    font-family: 'Raleway', sans-serif;
-}
-
-.text-footer {
-    color: var(--cloud, #F4F4FD);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    width: 264px;
-    margin-top: 16px;
-    margin-left: 156px;
-}
-
-.footer-span {
-    color: #f4f4fd;
-}
-
 /* Portfolio Page */
 
 .buttons {
@@ -374,7 +361,7 @@ p {
 .row-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue, #2e2f42);
 

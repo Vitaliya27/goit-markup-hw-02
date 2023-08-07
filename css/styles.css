@@ -184,6 +184,11 @@ span {
 }
 
 .feutures-title {
+    color: var(--navyblue, #2e2f42)
+    font-weight: 500;
+    font-style: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     display: none;
 }
 
@@ -351,7 +356,7 @@ span {
 
 /* Portfolio Page */
 
-.button-list {
+.list-button {
     list-style: none;
     text-align: center;
     display: inline-flex;
@@ -423,7 +428,8 @@ p {
     color: var(--brand-color, #434455)
 }
 
-.row-main-list {
+.list-main-row {
+    list-style: none;
     display: inline-flex;
     align-items: flex-start;
     margin-top: 0;
@@ -432,7 +438,8 @@ p {
     padding-left: 0;
 }
 
-.row-list-item {
+.link-row {
+    text-decoration: none;
     display: inline-flex;
     align-items: flex-start;
     margin-top: 0;
@@ -453,30 +460,6 @@ p {
     background: #FFF;
     overflow: hidden;
     margin: 0 24px 0 0;
-}
-
-.row-images {
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
-    background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
-    margin: 0;
-    padding: 0;
-}
-
-.row-title {
-    color: var(--navyblue, #2E2F42);
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    width: 290px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 32px;
-    margin-bottom: 8px;
 }
 
 .row-text {

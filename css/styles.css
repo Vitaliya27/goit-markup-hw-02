@@ -25,10 +25,6 @@ span {
     
 }
 
-address {
-    font-style: normal;
-}
-
 /* Header section */
 
 .header {
@@ -73,6 +69,10 @@ address {
 
 .list-item:focus {
     color: #404bbf;
+}
+
+.address-section {
+    font-style: normal;
 }
 
 .address-item {

@@ -31,14 +31,7 @@ address {
 /* Header section */
 
 .header {
-    height: 72px;
-    flex-shrink: 0;
     background: var(--white, #FFF);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
-
 }
 
 .link {
@@ -100,8 +93,6 @@ address {
 /* Footer */
 
 .footer {
-    height: 312px;
-    flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
     font-family: 'Raleway', sans-serif;
 }
@@ -122,8 +113,6 @@ address {
 /* Hero section */
 
 .hero {
-    height: 600px;
-    flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
     color: #ffffff;
 }
@@ -137,19 +126,10 @@ address {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    margin: 0 472px 40px 472px;
-    padding-top: 188px;
 }
 
 .button {
-    text-align: center;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: var(--iris, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white, #FFF);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -157,30 +137,15 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    box-sizing: border-box;
-    margin-left: 635px;
-    margin-right: 635px;
     cursor: pointer;
 }
 
 .button:hover {
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: var(--ocean, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button:focus {
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background-color: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Main section */
@@ -221,14 +186,8 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
-    
 }
 
-.portfolio-images {
-    margin: 0 24px 120px 0;
-    display: flex;
-}
 
 /* team section */
 
@@ -238,8 +197,6 @@ address {
 
 .team-title {
     color: var(--navyblue, #2E2F42);
-    text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -248,43 +205,23 @@ address {
     text-transform: capitalize;
 }
 
-.team-cards {
-    width: 264px;
-    height: 380px;
-    display: list-item;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 12px 0 12px;
-    border-radius: 0px 0px 4px 4px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
 .team-name {
     color: var(--navyblue, #2E2F42);
     text-align: center;
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    margin-bottom: 8px;
-    margin-top: 24px;
 }
 
 .position {
     color: var(--slate, #434455);
-    text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    margin-top: 0;
-    block-size: border-box;
 }
 
 /* Portfolio Page */
@@ -294,7 +231,6 @@ address {
 }
 
 .buttons-item {
-    height: 48px;
     color: var(--iris, #4D5AE5);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -302,32 +238,17 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--cloud, #F4F4FD);
     cursor: pointer;
 }
 
 .buttons-item:hover {
-    display: inline;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background-color: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #ffffff;
 }
 
 .buttons-item:focus {
-    display: inline;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background-color: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #ffffff;   
 }
 
@@ -364,7 +285,4 @@ p {
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    margin: 0;
-    margin-left: 16px;
-    margin-bottom: 32px;
 }

@@ -78,8 +78,6 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: inline-flex;
-    margin-left: 40px;
 }
 
 .list-item:hover {
@@ -88,16 +86,6 @@ address {
 
 .list-item:focus {
     color: #404bbf;
-}
-
-.list-item:active {
-    color: var(--ocean, #404BBF);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 
 .address-item {

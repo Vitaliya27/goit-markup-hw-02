@@ -188,7 +188,7 @@ address {
     color: var(--navyblue, #2e2f42);
     font-weight: 500;
     font-style: 20px;
-    line-height: 1.2;
+    line-height: 1.2px;
     letter-spacing: 0.02em;
 }
 
@@ -243,7 +243,6 @@ address {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-top: 120px;
 }
 
 .team-cards {
@@ -313,17 +312,6 @@ address {
 
 /* Portfolio Page */
 
-.list-button {
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 96px;
-    margin-bottom: 72px;
-    padding-left: 450px;
-}
-
 .buttons {
     padding-right: 24px;
 }
@@ -337,9 +325,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
     display: inline-block;
-    padding: 0px 24px;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
@@ -385,48 +371,22 @@ p {
     color: var(--brand-color, #434455)
 }
 
-.list-main-row {
-    list-style: none;
-    display: inline-flex;
-    align-items: flex-start;
-    margin-top: 0;
-    margin-bottom: 48px;
-    margin-left: 156px;
-    padding-left: 0;
-}
+.row-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2e2f42);
 
-.link-row {
-    text-decoration: none;
-    display: inline-flex;
-    align-items: flex-start;
-    margin-top: 0;
-    margin-bottom: 120px;
-    margin-left: 156px;
-    padding-left: 0;
-}
-
-.row-list {
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: #FFF;
-    overflow: hidden;
-    margin: 0 24px 0 0;
 }
 
 .row-text {
     color: var(--slate, #434455);
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     margin: 0;
     margin-left: 16px;
     margin-bottom: 32px;

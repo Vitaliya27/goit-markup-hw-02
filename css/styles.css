@@ -182,18 +182,7 @@ address {
 
 /* Main section */
 
-/* what are we doing */
-
-.feutures-container {
-    margin-left: auto;
-    margin-right: auto;
-}
-.feutures {
-    display: inline-flex;
-    margin-left: 78px;
-    margin-right: 78px;
-    flex-shrink: 0;
-}
+/* Feutures section */
 
 .feutures-title {
     color: var(--navyblue, #2e2f42);
@@ -220,13 +209,16 @@ address {
     letter-spacing: 0.02em;
 }
 
+/* what are we doing */
+
 .portfolio-title {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-style: normal;
-    line-height: 0.02em;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     
 }
 

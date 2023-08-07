@@ -53,16 +53,12 @@ address {
 
 .logo {
     color: var(--navyblue, #4d5ae5);
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 

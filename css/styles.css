@@ -52,13 +52,13 @@ address {
 }
 
 .logo {
+    color: var(--navyblue, #4d5ae5);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navyblue, #4d5ae5);
 }
 
 .header-span {
@@ -182,6 +182,8 @@ address {
 
 /* Main section */
 
+/* what are we doing */
+
 .feutures-container {
     margin-left: auto;
     margin-right: auto;
@@ -220,13 +222,11 @@ address {
 
 .portfolio-title {
     color: var(--navyblue, #2E2F42);
-    text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 1.11;
+    line-height: 0.02em;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     
 }
 
@@ -235,7 +235,13 @@ address {
     display: flex;
 }
 
-.team-item {
+/* team section */
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: Roboto;
